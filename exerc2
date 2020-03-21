@@ -1,0 +1,75 @@
+2.(exerc2) A fim de representar empregados em uma empresa, crie uma classe chamada Empregado que inclui as três informações 
+a seguir como atributos: 
+
+• um primeiro nome, 
+• um sobrenome, e 
+• um salário mensal. 
+
+Sua classe deve ter um construtor (veja sobre este método especial na apostila pág. 6, e nos vídeos [1] e [2]) 
+que inicializa os três atributos. Forneça um método set e get para cada atributo. Se o salário mensal não for positivo, 
+configure-o como 0.0. Escreva um código de teste que demonstra as capacidades da classe. Crie duas instâncias da classe e 
+exiba o salário anual de cada instância. Então dê a cada empregado um aumento de 10% e exiba novamente o salário anual de 
+cada empregado. //
+
+
+
+
+<?php
+class Empregado{
+
+public $prinome;
+public $sobnome;
+public $salmen;
+public $resultado;
+
+public function Empregado($p, $s, $l){
+  $this-> prinome = $p;
+  $this-> sobnome = $s;
+  $this-> salmen = $l;
+}
+
+
+public function setPrinome($prinome){
+  $this-> prinome = $prinome;
+}
+public function setSobnome($sobnome){
+  $this-> sobnome = $sobnome;
+}
+public function setSalmen($salmen){
+  $this-> salmen = $salmen;
+}
+public function setResultado($resultado, $salmen){
+  $this-> resultado = ($salmen*12);
+}
+
+
+public function getPrinome(){
+  return $this->prinome;
+}
+public function getSobnome(){
+  return $this->sobnome;
+}
+public function getSalmen(){
+  return $this->salmen;
+}
+public function getResultado(){
+  return $this->resultado;
+}
+
+}
+
+$o1 = new Empregado("Hernan","Crespo",2000);
+echo "\n";
+echo "Nome do Empregado: ".$o1->getPrinome()."\n";
+echo "Sobrenome do Empregado: ".$o1->getSobnome()."\n";
+echo "Salário do Empregado: ".$o1->getSalmen(+12)." Reais\n";
+echo $o1->getResultado();
+echo "\n";
+
+$o2 = new Empregado("Juan Sebastian","Veron",1500);
+echo "Nome do Empregado: ".$o2->getPrinome()."\n";
+echo "Sobrenome do Empregado: ".$o2->getSobnome()."\n";
+echo "Salário do Empregado: ".$o2->getSalmen()." Reais\n";
+echo $o1->getResultado();
+
+
