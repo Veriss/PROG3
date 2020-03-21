@@ -1,0 +1,63 @@
+3.(exerc3) Para cada produto informado (nome, preço e quantidade), escreva o nome do produto comprado e o 
+valor total a ser pago, considerando que são oferecidos descontos pelo número de unidades compradas, segundo a 
+tabela abaixo: 
+
+• Até 10 unidades: valor total 
+• de 11 a 20 unidades: 10% de desconto 
+• de 21 a 50 unidades: 20% de desconto
+• acima de 50 unidades: 25% de desconto
+
+
+
+
+
+
+<?php
+class Produto{
+
+public $nome;
+public $preco;
+public $quantidade;
+
+public function Produto($n, $p, $q){
+  $this-> nome = $n;
+  $this-> preco = $p;
+  $this-> quantidade = $q;
+}
+
+
+
+public function setNome($nome){
+  $this-> nome = $nome;
+}
+public function setPreco($preco){
+  $this-> nome = $preco;
+}
+public function setQuantidade($quantidade){
+  $this-> quantidade = $quantidade;
+}
+
+
+
+public function getNome(){
+  return $this->nome;
+}
+public function getPreco(){
+  return $this->preco;
+}
+public function getQuantidade(){
+  return $this->quantidade;
+}
+
+
+
+}
+
+$celular = new Produto("LG",2000,2);
+echo "\n";
+echo $celular->getNome()."\n";
+echo $celular->getPreco()."\n";
+echo $celular->getQuantidade()."\n";
+
+
+
