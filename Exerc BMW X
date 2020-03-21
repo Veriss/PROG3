@@ -1,1 +1,90 @@
-sss
+<?php
+class carro{
+
+public $modelo;
+public $ligcar;
+public $deslcar;
+public $acelerar;
+public $reduzir;
+public $carpar;
+public $dimini;
+public $carest;
+
+
+public function carro($m, $l, $d, $a, $r, $c, $o, $s){
+  $this-> modelo = $m;
+  $this-> ligcar = $l;
+  $this-> deslcar = $d;
+  $this-> acelerar = $a;
+  $this-> reduzir = $r;
+  $this-> carpar = $c;
+  $this-> dimini = $o;
+  $this-> estatcar = $s;
+}
+
+
+public function setModelo($modelo){
+  $this->modelo = $modelo;
+}
+public function setligarCarro($ligcar){
+  $this->ligcar = $ligcar;
+}
+public function setdesligarCarro($deslcar){
+  $this->deslcar = $deslcar;
+}
+public function setAcelerar($acelerar){
+  $this->acelerar = $acelerar;
+}
+public function setReduzir($reduzir){
+  $this->reduzir = $reduzir;
+}
+public function setpararCarro($carpar){
+  $this->carpar = $carpar;
+}
+public function setdiminuirVel($dimini){
+  $this->dimini = $dimini;
+}
+public function setestatCar($carest){
+  $this->estatcar = $carest;
+}
+
+
+public function getModelo(){
+  return $this->modelo;
+}
+public function getligarCarro(){
+  return $this->ligcar;
+}
+public function getdesligarCarro(){
+  return $this->deslcar;
+}
+public function getAcelerar(){
+  return $this->acelerar;
+}
+public function getReduzir(){
+  return $this->reduzir;
+}
+public function getpararCarro(){
+  return $this->carpar;
+}
+public function getdiminuirVel(){
+  return $this->dimini;
+}
+public function getestatCar(){
+  return $this->estatcar;
+}
+
+}
+
+
+$bmw = new carro("BMW X","Carro Ligado","Carro Desligado",80,"Reduzindo Velocidade!","Carro Parado!",40,0);
+
+echo "\n";
+echo "Modelo: ".$bmw->getModelo()."\n";
+echo "Situação do Carro: ".$bmw->getligarCarro()."\n";
+echo "Velocidade: ".$bmw->getAcelerar()." Km/h \n";
+echo "Situação do Carro: ".$bmw->getReduzir()."\n";
+echo "Velocidade: ".$bmw->getdiminuirVel()." Km/h \n";
+echo "Situação do Carro: ".$bmw->getpararCarro()."\n";
+echo "Velocidade: ".$bmw->getestatCar()." Km/h \n";
+echo "Situação do Carro: ".$bmw->getdesligarCarro()."\n";
