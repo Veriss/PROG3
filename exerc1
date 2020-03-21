@@ -1,11 +1,27 @@
-1. (exerc1) Descreva em no máximo 200 palavras o que é um automóvel e o que ele faz. Liste os substantivos e verbos separadamente. Cada substantivo corresponde a um objeto que precisará ser construído para implementar um sistema, nesse caso, um carro. Selecione 5 dos objetos que você listou e, para cada um, liste vários atributos e comportamentos. Descreva brevemente como esses objetos interagem entre si e com outros objetos na sua descrição. Estes passos que você seguiu são típicos do projeto orientado a objetos.
+1. (exerc1) Descreva em no máximo 200 palavras o que é um automóvel e o que ele faz. Liste os substantivos e verbos separadamente. 
+Cada substantivo corresponde a um objeto que precisará ser construído para implementar um sistema, nesse caso, um carro. 
+Selecione 5 dos objetos que você listou e, para cada um, liste vários atributos e comportamentos. Descreva brevemente como 
+esses objetos interagem entre si e com outros objetos na sua descrição. Estes passos que você seguiu são típicos do projeto 
+orientado a objetos.
 
 
-Um carro é nada mais que um sistema de locomoção, que necessita que vários objetos trabalhem com interação entre si, além disso, os carros contam com uma fonte de energia limitada responsável por fazer esse sistema acontecer, cuja essa energia pode ser reabastecida. 
-Os carros, para circularem, necessitam de RODAS, porém esses objetos podem ter características variáveis, como por exemplo, MARCA, TAMANHO e MATERIAL. As rodas devem estar sempre balanceadas, para evitar vibrações no VOLANTE, outro objeto que é extremamente importante para o bom funcionamento do carro, além de ser algo que transborda apenas o aspecto técnico ou prático, aborda também o aspecto visual, devido a sua direta relação com o motorista. Volantes podem ter diferentes CORES, MATERIAS E TAMANHOS, além da sua posição que é colocado dentro do veículo. 
-Não balancear as rodas de seu veículo pode também gerar desgaste nos AMORTECEDORES, que são objetos importantíssimos que constituem na suspensão do carro, que é responsável por ligar o CHASSI ás RODAS do automóvel. Amortecedores normalmente são caracterizados por seu TIPO (Convencionais ou Pressurizados) e MÉTODO DE DISSIPAÇÃO DE ENERGIA, enquanto o CHASSI pode ser classificado por seu MATERIAL, além de uma importante variável que tem 17 caracteres entre números e letras, que é basicamente o número de identificação do veículo. 
-E por fim, o objeto que é considerado o coração do automóvel, que é responsável por fazer a “magia” acontecer, o MOTOR. Que tem uma ligação direta com todos os itens citados, pois é ele quem distribui a energia para as rodas se moverem, que por si só já faz com que os amortecedores da suspensão trabalhem em conjunto com o chassi, que é diretamente comandado pelo volante do automóvel e por seu motorista. O MOTOR é constituído por inúmeros atributos, como ANO, MODELO, CAVALOS DE POTÊNCIA (CV), RPM e muitos outros, devido a sua real importância para a durabilidade e funcionamento desse sistema, ou seja, do automóvel.
-
+Um carro é nada mais que um sistema de locomoção, que necessita que vários objetos trabalhem com interação entre si, 
+além disso, os carros contam com uma fonte de energia limitada responsável por fazer esse sistema acontecer, 
+cuja essa energia pode ser reabastecida. 
+Os carros, para circularem, necessitam de RODAS, porém esses objetos podem ter características variáveis, como por exemplo, 
+MARCA, TAMANHO e MATERIAL. As rodas devem estar sempre balanceadas, para evitar vibrações no VOLANTE, outro objeto que é extremamente 
+importante para o bom funcionamento do carro, além de ser algo que transborda apenas o aspecto técnico ou prático, aborda também o 
+aspecto visual, devido a sua direta relação com o motorista. Volantes podem ter diferentes CORES, MATERIAS E TAMANHOS, além da sua 
+posição que é colocado dentro do veículo. 
+Não balancear as rodas de seu veículo pode também gerar desgaste nos AMORTECEDORES, que são objetos importantíssimos que constituem 
+na suspensão do carro, que é responsável por ligar o CHASSI ás RODAS do automóvel. Amortecedores normalmente são caracterizados por 
+seu TIPO (Convencionais ou Pressurizados) e MÉTODO DE DISSIPAÇÃO DE ENERGIA, enquanto o CHASSI pode ser classificado por seu MATERIAL, 
+além de uma importante variável que tem 17 caracteres entre números e letras, que é basicamente o número de identificação do veículo. 
+E por fim, o objeto que é considerado o coração do automóvel, que é responsável por fazer a “magia” acontecer, o MOTOR. Que tem uma 
+ligação direta com todos os itens citados, pois é ele quem distribui a energia para as rodas se moverem, que por si só já faz com 
+que os amortecedores da suspensão trabalhem em conjunto com o chassi, que é diretamente comandado pelo volante do automóvel e por 
+seu motorista. O MOTOR é constituído por inúmeros atributos, como ANO, MODELO, CAVALOS DE POTÊNCIA (CV), RPM e muitos outros, 
+devido a sua real importância para a durabilidade e funcionamento desse sistema, ou seja, do automóvel.
 
 
 
